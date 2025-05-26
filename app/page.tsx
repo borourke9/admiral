@@ -159,7 +159,7 @@ export default function AdmiralDetailing() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-[#fdf6ed]">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Content Container */}
         <div className="relative z-20 text-center text-vintage-navy max-w-4xl mx-auto px-4 sm:px-6 md:px-8">
           <div className="p-6 sm:p-8 md:p-12">
@@ -196,7 +196,7 @@ export default function AdmiralDetailing() {
                 <div className="absolute -inset-2 rounded-xl border-4 border-vintage-gold/60 animate-pulse"></div>
                 <Button
                   size="lg"
-                  className="bg-vintage-gold hover:bg-vintage-gold/90 text-vintage-navy font-serif font-bold px-20 sm:px-24 py-8 sm:py-10 text-2xl sm:text-3xl shadow-2xl border-4 border-vintage-navy/40 transition-all duration-300 drop-shadow-xl relative overflow-hidden w-full min-h-[72px] transform hover:scale-105 animate-bounce-subtle"
+                  className="bg-vintage-gold hover:bg-vintage-gold/90 text-vintage-navy font-serif font-bold px-16 sm:px-20 py-6 sm:py-8 text-xl sm:text-2xl shadow-2xl border-4 border-vintage-navy/40 transition-all duration-300 drop-shadow-xl relative overflow-hidden w-full min-h-[64px] transform hover:scale-105 animate-bounce-subtle"
                   style={{
                     boxShadow: "0 16px 48px rgba(212, 175, 55, 0.5), inset 0 2px 4px rgba(255,255,255,0.4)",
                     textShadow: "2px 2px 4px rgba(0,0,0,0.3)",
