@@ -93,6 +93,12 @@ export default function AdmiralDetailing() {
                 Gallery
               </Link>
               <Link
+                href="/blog"
+                className="text-vintage-navy hover:text-vintage-gold transition-colors font-serif drop-shadow-sm"
+              >
+                Blog
+              </Link>
+              <Link
                 href="#booking"
                 className="text-vintage-navy hover:text-vintage-gold transition-colors font-serif drop-shadow-sm"
               >
@@ -139,6 +145,13 @@ export default function AdmiralDetailing() {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Gallery
+                </Link>
+                <Link
+                  href="/blog"
+                  className="block text-vintage-navy hover:text-vintage-gold transition-colors font-serif text-lg py-2"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Blog
                 </Link>
                 <Link
                   href="#booking"
