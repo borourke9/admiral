@@ -582,6 +582,39 @@ export default function AdmiralDetailing() {
         </div>
       </section>
 
+      {/* Blog Preview Section */}
+      <section className="py-16 sm:py-20 md:py-24 bg-vintage-cream/60 relative">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <Badge className="mb-4 bg-vintage-gold/30 text-vintage-navy border-vintage-gold/50 font-serif drop-shadow-sm">
+              Latest Updates
+            </Badge>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold mb-6 text-vintage-navy drop-shadow-sm">
+              See What We've Been Working On
+            </h2>
+            <p className="text-lg sm:text-xl text-vintage-navy/80 max-w-2xl mx-auto mb-8 leading-relaxed font-serif drop-shadow-sm">
+              Explore our latest projects, detailing tips, and maintenance guides for your luxury vehicles and vessels.
+            </p>
+            <Link href="/blog" className="inline-block">
+              <div className="relative group">
+                <div className="absolute -inset-2 rounded-xl border-4 border-vintage-gold/60 animate-pulse"></div>
+                <Button
+                  size="lg"
+                  className="bg-vintage-gold hover:bg-vintage-gold/90 text-vintage-navy font-serif font-bold px-12 sm:px-16 py-6 sm:py-8 text-xl sm:text-2xl shadow-2xl border-4 border-vintage-navy/40 transition-all duration-300 drop-shadow-xl relative overflow-hidden min-h-[64px] transform hover:scale-105"
+                  style={{
+                    boxShadow: "0 16px 48px rgba(212, 175, 55, 0.5), inset 0 2px 4px rgba(255,255,255,0.4)",
+                    textShadow: "2px 2px 4px rgba(0,0,0,0.3)",
+                  }}
+                >
+                  <div className="absolute inset-0 bg-gradient-to-r from-vintage-gold/30 to-vintage-gold/50 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                  <span className="relative z-10">Read Our Blog</span>
+                </Button>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-vintage-navy/90 py-8 sm:py-12 relative">
         <div className="container mx-auto px-4">
