@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Premium car and boat detailing in Harbor Springs, MI. Mobile service, online booking, and unmatched results.',
   generator: 'Next.js',
   icons: {
-    icon: '/admiral-favicon-transparent.ico',
+    icon: '/images/admiral-favicon-transparent.ico',
   },
   metadataBase: new URL('https://admiraldetailing.com'),
   alternates: {
@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/admiral-favicon-transparent.ico" />
+        <link rel="icon" href="/images/admiral-favicon-transparent.ico" />
         <link rel="canonical" href="https://admiraldetailing.com" />
       </head>
       <body>{children}</body>
