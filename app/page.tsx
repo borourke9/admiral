@@ -423,10 +423,9 @@ export default function AdmiralDetailing() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12 sm:mb-16">
-              <Badge className="mb-4 bg-beige-200/90 text-vintage-navy font-serif drop-shadow-sm">Our Work</Badge>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-vintage-navy mb-4 sm:mb-6 drop-shadow-sm">
-                Before & After Gallery
-              </h2>
+              <Badge className="mb-4 bg-beige-200/90 text-vintage-navy font-serif drop-shadow-sm text-lg sm:text-xl px-6 py-2">
+                Our Work
+              </Badge>
               <p className="text-lg sm:text-xl text-vintage-navy/80 max-w-3xl mx-auto leading-relaxed font-serif drop-shadow-sm">
                 Witness the transformation of luxury vehicles and vessels through our meticulous detailing process.
               </p>
