@@ -568,13 +568,15 @@ export default function AdmiralDetailing() {
             </div>
 
             <div className="text-center mt-8 sm:mt-12">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-vintage-navy text-vintage-navy hover:bg-vintage-navy/10 font-serif shadow-lg drop-shadow-sm min-h-[48px]"
-              >
-                View Full Gallery
-              </Button>
+              <Link href="https://www.facebook.com/share/16KiL64Nxd/?mibextid=wwXIfr">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-vintage-navy text-vintage-navy hover:bg-vintage-navy/10 font-serif shadow-lg drop-shadow-sm min-h-[48px]"
+                >
+                  View Full Gallery
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
