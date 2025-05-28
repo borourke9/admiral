@@ -433,30 +433,138 @@ export default function AdmiralDetailing() {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-              {[1, 2, 3, 4, 5, 6].map((item) => (
-                <Card
-                  key={item}
-                  className="overflow-hidden group cursor-pointer bg-vintage-cream/90 border-beige-300 shadow-lg drop-shadow-sm"
-                >
-                  <div className="relative">
-                    <Image
-                      src={`/placeholder.svg?height=300&width=400`}
-                      alt={`Gallery image ${item}`}
-                      width={400}
-                      height={300}
-                      className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-vintage-navy/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                      <div className="absolute bottom-4 left-4 text-white">
-                        <Badge className="bg-vintage-gold text-vintage-navy mb-2 font-serif text-xs sm:text-sm">
-                          {item % 2 === 0 ? "Yacht Detail" : "Car Detail"}
-                        </Badge>
-                        <p className="text-xs sm:text-sm font-serif">Professional detailing transformation</p>
-                      </div>
+              <Card
+                key="1"
+                className="overflow-hidden group cursor-pointer bg-vintage-cream/90 border-beige-300 shadow-lg drop-shadow-sm"
+              >
+                <div className="relative">
+                  <Image
+                    src="/images/IMG_5076_converted.png"
+                    alt="Before and after detailing transformation"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-vintage-navy/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <Badge className="bg-vintage-gold text-vintage-navy mb-2 font-serif text-xs sm:text-sm">
+                        Car Detail
+                      </Badge>
+                      <p className="text-xs sm:text-sm font-serif">Professional detailing transformation</p>
                     </div>
                   </div>
-                </Card>
-              ))}
+                </div>
+              </Card>
+              <Card
+                key="2"
+                className="overflow-hidden group cursor-pointer bg-vintage-cream/90 border-beige-300 shadow-lg drop-shadow-sm"
+              >
+                <div className="relative">
+                  <Image
+                    src="/images/IMG_5078_converted.png"
+                    alt="Before and after detailing transformation"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-vintage-navy/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <Badge className="bg-vintage-gold text-vintage-navy mb-2 font-serif text-xs sm:text-sm">
+                        Car Detail
+                      </Badge>
+                      <p className="text-xs sm:text-sm font-serif">Professional detailing transformation</p>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+              <Card
+                key="3"
+                className="overflow-hidden group cursor-pointer bg-vintage-cream/90 border-beige-300 shadow-lg drop-shadow-sm"
+              >
+                <div className="relative">
+                  <Image
+                    src="/images/IMG_5077_converted.png"
+                    alt="Before and after yacht detailing transformation"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-vintage-navy/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <Badge className="bg-vintage-gold text-vintage-navy mb-2 font-serif text-xs sm:text-sm">
+                        Yacht Detail
+                      </Badge>
+                      <p className="text-xs sm:text-sm font-serif">Professional yacht detailing transformation</p>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+              <Card
+                key="4"
+                className="overflow-hidden group cursor-pointer bg-vintage-cream/90 border-beige-300 shadow-lg drop-shadow-sm"
+              >
+                <div className="relative">
+                  <Image
+                    src="/images/IMG_5081_converted.png"
+                    alt="Before and after car detailing transformation"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-vintage-navy/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <Badge className="bg-vintage-gold text-vintage-navy mb-2 font-serif text-xs sm:text-sm">
+                        Car Detail
+                      </Badge>
+                      <p className="text-xs sm:text-sm font-serif">Professional detailing transformation</p>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+              <Card
+                key="5"
+                className="overflow-hidden group cursor-pointer bg-vintage-cream/90 border-beige-300 shadow-lg drop-shadow-sm"
+              >
+                <div className="relative">
+                  <Image
+                    src="/images/IMG_5079_converted.png"
+                    alt="Before and after car detailing transformation"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-vintage-navy/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <Badge className="bg-vintage-gold text-vintage-navy mb-2 font-serif text-xs sm:text-sm">
+                        Car Detail
+                      </Badge>
+                      <p className="text-xs sm:text-sm font-serif">Professional detailing transformation</p>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+              <Card
+                key="6"
+                className="overflow-hidden group cursor-pointer bg-vintage-cream/90 border-beige-300 shadow-lg drop-shadow-sm"
+              >
+                <div className="relative">
+                  <Image
+                    src="/images/IMG_5084_converted.png"
+                    alt="Before and after yacht detailing transformation"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 sm:h-64 object-cover transition-transform group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-vintage-navy/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <Badge className="bg-vintage-gold text-vintage-navy mb-2 font-serif text-xs sm:text-sm">
+                        Yacht Detail
+                      </Badge>
+                      <p className="text-xs sm:text-sm font-serif">Professional yacht detailing transformation</p>
+                    </div>
+                  </div>
+                </div>
+              </Card>
             </div>
 
             <div className="text-center mt-8 sm:mt-12">
