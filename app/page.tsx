@@ -439,7 +439,7 @@ export default function AdmiralDetailing() {
               >
                 <div className="relative">
                   <Image
-                    src="/images/IMG_5076_converted.png"
+                    src="images/IMG_5076_converted.png"
                     alt="Before and after detailing transformation"
                     width={400}
                     height={300}
@@ -461,7 +461,7 @@ export default function AdmiralDetailing() {
               >
                 <div className="relative">
                   <Image
-                    src="/images/IMG_5078_converted.png"
+                    src="images/IMG_5078_converted.png"
                     alt="Before and after detailing transformation"
                     width={400}
                     height={300}
@@ -483,7 +483,7 @@ export default function AdmiralDetailing() {
               >
                 <div className="relative">
                   <Image
-                    src="/images/IMG_5077_converted.png"
+                    src="images/IMG_5077_converted.png"
                     alt="Before and after yacht detailing transformation"
                     width={400}
                     height={300}
@@ -505,7 +505,7 @@ export default function AdmiralDetailing() {
               >
                 <div className="relative">
                   <Image
-                    src="/images/IMG_5081_converted.png"
+                    src="images/IMG_5081_converted.png"
                     alt="Before and after car detailing transformation"
                     width={400}
                     height={300}
@@ -527,7 +527,7 @@ export default function AdmiralDetailing() {
               >
                 <div className="relative">
                   <Image
-                    src="/images/IMG_5079_converted.png"
+                    src="images/IMG_5079_converted.png"
                     alt="Before and after car detailing transformation"
                     width={400}
                     height={300}
@@ -549,7 +549,7 @@ export default function AdmiralDetailing() {
               >
                 <div className="relative">
                   <Image
-                    src="/images/IMG_5084_converted.png"
+                    src="images/IMG_5084_converted.png"
                     alt="Before and after yacht detailing transformation"
                     width={400}
                     height={300}
