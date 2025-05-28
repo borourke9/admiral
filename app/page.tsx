@@ -191,7 +191,7 @@ export default function AdmiralDetailing() {
 
             {/* Video Player */}
             <div className="mb-6 sm:mb-8">
-              <div className="relative aspect-[9/16] max-w-xs sm:max-w-sm mx-auto rounded-lg overflow-hidden md:aspect-[4/5] md:max-w-md bg-[#fdf6ed] p-4 shadow-2xl">
+              <div className="relative aspect-[16/9] max-w-xs sm:max-w-sm mx-auto rounded-lg overflow-hidden md:aspect-[16/9] md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1000px] bg-[#fdf6ed] p-4 shadow-2xl">
                 <video
                   className="w-full h-full object-cover rounded-lg"
                   controls
