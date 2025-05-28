@@ -612,7 +612,7 @@ export default function AdmiralDetailing() {
                   <div className="space-y-4">
                     <div className="flex items-center text-vintage-navy/80">
                       <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-vintage-gold mr-4 flex-shrink-0" />
-                      <span className="font-serif text-sm sm:text-base">(231) 555-0123</span>
+                      <span className="font-serif text-sm sm:text-base">(231) 675-9904</span>
                     </div>
                     <div className="flex items-center text-vintage-navy/80">
                       <Mail className="h-4 w-4 sm:h-5 sm:w-5 text-vintage-gold mr-4 flex-shrink-0" />
